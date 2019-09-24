@@ -1,0 +1,23 @@
+Python is an example of a high-level language; other high-level languages you might have heard of are C++, PHP, and Java.
+
+As you might infer from the name high-level language, there are also low-level languages (A low-level language is a 
+programming language that provides little or no abstraction of programming concepts and is very close to writing actual 
+machine instructions. Two good examples of low-level languages are assembly and machine code), sometimes referred to as
+machine languages or assembly languages. Machine language is the encoding of instructions in binary so that they can be 
+directly executed by the computer. Assembly language uses a slightly easier format to refer to the low level instructions. 
+Loosely speaking,computers can only execute programs written in low-level languages.To be exact,computers can actually only 
+execute programs written in machine language. Thus, programs written in a high-level language (and even those in assembly 
+language) have to be processed before they can run. This extra processing takes some time, which is a small disadvantage of
+high-level languages. However, the advantages to high-level languages are enormous.
+
+First, it is much easier to program in a high-level language. Programs written in a high-level language take less time to 
+write, they are shorter and easier to read, and they are more likely to be correct. Second, high-level languages are portable,
+meaning that they can run on different kinds of computers with few or no modifications. Low-level programs can run on only
+one kind of computer and have to be rewritten to run on another.
+
+Due to these advantages, almost all programs are written in high-level languages. Low-level languages are used only for a few 
+specialized applications.
+
+Two kinds of programs process high-level languages into low-level languages: interpreters and compilers. An interpreter reads
+a high-level program and executes it, meaning that it does what the program says. It processes the program a little at a time,
+alternately reading lines and performing computations.
