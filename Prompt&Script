@@ -1,0 +1,9 @@
+The >>> is called the Python prompt. The interpreter uses the prompt to indicate that it is ready for instructions. We
+typed 2 + 2, and the interpreter evaluated our expression, and replied 4, and on the next line it gave a new prompt,
+indicating that it is ready for more input.
+
+Alternatively, you can write a program in a file and use the interpreter to execute the contents of the file. Such a file is
+called a script. Scripts have the advantage that they can be saved to disk, printed, and so on.
+Working directly in the interpreter is convenient for testing short bits of code because you get immediate feedback.
+Think of it as scratch paper used to help you work out problems. Anything longer than a few lines should be put into
+a script.
