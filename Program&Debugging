@@ -1,0 +1,30 @@
+Program:-
+A program is a sequence of instructions that specifies how to perform a computation. The computation might be
+something mathematical, such as solving a system of equations or finding the roots of a polynomial, but it can also
+be a symbolic computation, such as searching and replacing text in a document or (strangely enough) compiling a
+program.
+The details look different in different languages, but a few basic instructions appear in just about every language:
+
+input Get data from the keyboard, a file, or some other device such as a sensor.
+
+output Display data on the screen or send data to a file or other device such as a motor.
+
+math Perform basic mathematical operations like addition and multiplication.
+
+conditional execution Check for certain conditions and execute the appropriate sequence of statements.
+
+repetition Perform some action repeatedly, usually with some variation.
+
+That’s pretty much all there is to it. Every program you’ve ever used, no matter how complicated,
+is made up of instructions that look more or less like these. Thus, we can describe programming as the process of
+breaking a large, complex task into smaller and smaller subtasks until the subtasks are simple enough to be performed
+with sequences of these basic instructions.
+
+Debugging:-
+
+Programming is a complex process, and because it is done by human beings, it often leads to errors. Programming
+errors are called bugs and the process of tracking them down and correcting them is called debugging. Use of the
+term bug to describe small engineering difficulties dates back to at least 1889, when Thomas Edison had a bug with
+his phonograph.
+Three kinds of errors can occur in a program: syntax errors, runtime errors, and semantic errors. It is useful to
+distinguish between them in order to track them down more quickly.
