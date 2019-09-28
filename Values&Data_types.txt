@@ -1,0 +1,31 @@
+A value is one of the fundamental things — like a letter or a number — that a program manipulates. The values we
+have seen so far are 4 (the result when we added 2 + 2), and "Hello, World!".
+
+These values are classified into different classes, or data types: 4 is an integer, and "Hello, World!" is a string,
+so-called because it contains a string of letters. You (and the interpreter) can identify strings because they are enclosed
+in quotation marks.
+
+If you are not sure what class a value falls into, Python has a function called type which can tell you.
+
+>>> type("Hello, World!")
+<class 'str'>
+>>> type(17)
+<class 'int'>
+
+Not surprisingly, strings belong to the class str and integers belong to the class int. Less obviously, numbers with a
+decimal point belong to a class called float, because these numbers are represented in a format called floating-point.
+
+At this stage, you can treat the words class and type interchangeably. We’ll come back to a deeper understanding of
+what a class is in later chapters.
+
+>>> type(3.2)
+<class 'float'>
+
+What about values like "17" and "3.2"? They look like numbers, but they are in quotation marks like strings.
+>>> type("17")
+<class 'str'>
+>>> type("3.2")
+<class 'str'>
+They’re strings!
+
+Strings in Python can be enclosed in either single quotes (') or double quotes ("), or three of each (''' or """)
