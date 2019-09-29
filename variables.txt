@@ -53,5 +53,6 @@ a variable, and later assign a different value to the same variable. (This is di
 
 You’ll notice we changed the value of day three times, and on the third assignment we even made it refer to a value
 that was of a different type.
+
 A great deal of programming is about having the computer remember things, e.g. The number of missed calls on your
 phone, and then arranging to update or change the variable when you miss another call.
