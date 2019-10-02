@@ -9,6 +9,7 @@ Python prompt, the interpreter evaluates it and displays the result:
 
 In this example len is a built-in Python function that returns the number of characters in a string. We’ve previously
 seen the print and the type functions, so this is our third example of a function!
+
 The evaluation of an expression produces a value, which is why expressions can appear on the right hand side of
 assignment statements. A value all by itself is a simple expression, and so is a variable.
 
@@ -18,5 +19,6 @@ assignment statements. A value all by itself is a simple expression, and so is a
 >>> x = len("hello")
 >>> x
 5
+
 >>> y
 3.14
