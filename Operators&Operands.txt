@@ -3,7 +3,7 @@ operator uses are called operands.
 
 The following are all legal Python expressions whose meaning is more or less clear:
 
-20+32 hour-1 hour*60+minute minute/60 5**2 (5+9)*(15-7)
+20+32   hour-1   hour*60+minute   minute/60   5**2   (5+9)*(15-7)
 
 The tokens +, -, and * , and the use of parenthesis for grouping, mean in Python what they mean in mathematics. The
 asterisk ( * ) is the token for multiplication, and ** is the token for exponentiation.
