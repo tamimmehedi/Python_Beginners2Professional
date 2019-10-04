@@ -3,9 +3,10 @@ into types int, float and str respectively. We call these type converter functio
 The int function can take a floating point number or a string, and turn it into an int. For floating point numbers, it
 discards the decimal portion of the number — a process we call truncation towards zero on the number line. Let us
 see this in action:
+
 >>> int(3.14)
 3
->>> int(3.9999)
+>>> int(3.9999)  # This doesn't round to the closest int!
 3
 >>> int(3.0)
 3
@@ -18,7 +19,7 @@ see this in action:
 >>> int(17)
 17
 >>> int("23 bottles")
-# This doesn't round to the closest int!
+
 # Note that the result is closer to zero
 # Parse a string to produce an int
 # It even works if arg is already an int
