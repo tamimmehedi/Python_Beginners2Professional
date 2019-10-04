@@ -10,7 +10,7 @@ see this in action:
 3
 >>> int(3.0)
 3
->>> int(-3.999)
+>>> int(-3.999)  # Note that the result is closer to zero
 -3
 >>> int(minutes / 60)
 10
@@ -20,7 +20,6 @@ see this in action:
 17
 >>> int("23 bottles")
 
-# Note that the result is closer to zero
 # Parse a string to produce an int
 # It even works if arg is already an int
 This last case doesn’t look like a number — what do we expect?
