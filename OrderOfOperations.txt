@@ -20,13 +20,13 @@ the operations had been evaluated from right to left, the result would have been
 acronym PEDMAS could mislead you to thinking that division has higher precedence than multiplication, and
 addition is done ahead of subtraction - don’t be misled. Subtraction and addition are at the same precedence,
 and the left-to-right rule applies.)
+
 Due to some historical quirk, an exception to the left-to-right left-associative rule is the exponentiation operator
 ** , so a useful hint is to always use parentheses to force exactly the order you want when exponentiation is
 involved:
->>> 2 ** 3 ** 2
+>>> 2 ** 3 ** 2  # The right-most ** operator gets done first!
 512
->>> (2 ** 3) ** 2
+>>> (2 ** 3) ** 2  # Use parentheses to force the order you want!
 64
-# The right-most ** operator gets done first!
-# Use parentheses to force the order you want!
+
 The immediate mode command prompt of Python is great for exploring and experimenting with expressions like this.
