@@ -1,21 +1,11 @@
 In general, you cannot perform mathematical operations on strings, even if the strings look like numbers. The following
 are illegal (assuming that message has type string):
->>>
->>>
->>>
->>>
-message - 1
-"Hello" / 123
-message * "Hello"
-"15" + 2
-#
-#
-#
-#
-Error
-Error
-Error
-Error
+
+>>>  message - 1         #Error
+>>>  "Hello" / 123       #Error
+>>>  message * "Hello"   #Error
+>>>  "15" + 2            #Error  
+
 Interestingly, the + operator does work with strings, but for strings, the + operator represents concatenation, not
 addition. Concatenation means joining the two operands by linking them end-to-end. For example:
 1
