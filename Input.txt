@@ -1,5 +1,5 @@
 There is a built-in function in Python for getting input from the user:
-1
+
 name = input("Please enter your name: ")
 The user of the program can enter the name and click OK, and when this happens the text that has been entered is
 returned from the input function, and in this case assigned to the variable name.
