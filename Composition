@@ -8,10 +8,7 @@ four-step program that asks the user to input a value for the radius of a circle
 from the formula
 Area = πR 2
 Firstly, we’ll do the four steps one at a time:
-1
-2
-3
-4
+
 response = input("What is your radius? ")
 r = float(response)
 area = 3.14159 * r**2
