@@ -13,14 +13,15 @@ response = input("What is your radius? ")
 r = float(response)
 area = 3.14159 * r**2
 print("The area is ", area)
+
 Now let’s compose the first two lines into a single line of code, and compose the second two lines into another line of
 code.
-1
-2
+
 r = float( input("What is your radius? ") )
 print("The area is ", 3.14159 * r**2)
+
 If we really wanted to be tricky, we could write it all in one statement:
-1
+
 print("The area is ", 3.14159*float(input("What is your radius?"))**2)
 Such compact code may not be most understandable for humans, but it does illustrate how we can compose bigger
 chunks from our building blocks.
