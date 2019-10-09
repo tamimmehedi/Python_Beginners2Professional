@@ -15,11 +15,7 @@ Also, you can extract the right-most digit or digits from a number. For example,
 of x (in base 10). Similarly x % 100 yields the last two digits.
 It is also extremely useful for doing conversions, say from seconds, to hours, minutes and seconds. So let’s write a
 program to ask the user to enter some seconds, and we’ll convert them into hours, minutes, and remaining seconds.
-1
-2
-3
-4
-5
+
 total_secs = int(input("How many seconds, in total?"))
 hours = total_secs // 3600
 secs_still_remaining = total_secs % 3600
