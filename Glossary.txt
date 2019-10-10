@@ -31,14 +31,19 @@ int A Python data type that holds positive and negative whole numbers.
 
 keyword A reserved word that is used by the compiler to parse program; you cannot use keywords like if, def, and
 while as variable names.
+
 modulus operator An operator, denoted with a percent sign ( %), that works on integers and yields the remainder
 when one number is divided by another.
+
 operand One of the values on which an operator operates.
+
 operator A special symbol that represents a simple computation like addition, multiplication, or string concatenation.
 rules of precedence The set of rules governing the order in which expressions involving multiple operators and
 operands are evaluated.
+
 state snapshot A graphical representation of a set of variables and the values to which they refer, taken at a particular
 instant during the program’s execution.
+
 statement An instruction that the Python interpreter can execute. So far we have only seen the assignment statement,
 but we will soon meet the import statement and the for statement.
 str A Python data type that holds a string of characters.
