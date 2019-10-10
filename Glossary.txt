@@ -13,3 +13,30 @@ concatenate To join two strings end-to-end.
 data type A set of values. The type of a value determines how it can be used in expressions. So far, the types you
 have seen are integers (int), floating-point numbers (float), and strings (str).
 evaluate To simplify an expression by performing the operations in order to yield a single value.
+
+expression A combination of variables, operators, and values that represents a single result value.
+float A Python data type which stores floating-point numbers. Floating-point numbers are stored internally in two
+parts: a base and an exponent. When printed in the standard format, they look like decimal numbers. Beware of
+rounding errors when you use floats, and remember that they are only approximate values.
+floor division An operator (denoted by the token //) that divides one number by another and yields an integer, or, if
+the result is not already an integer, it yields the next smallest integer.
+int A Python data type that holds positive and negative whole numbers.
+keyword A reserved word that is used by the compiler to parse program; you cannot use keywords like if, def, and
+while as variable names.
+modulus operator An operator, denoted with a percent sign ( %), that works on integers and yields the remainder
+when one number is divided by another.
+operand One of the values on which an operator operates.
+operator A special symbol that represents a simple computation like addition, multiplication, or string concatenation.
+rules of precedence The set of rules governing the order in which expressions involving multiple operators and
+operands are evaluated.
+state snapshot A graphical representation of a set of variables and the values to which they refer, taken at a particular
+instant during the program’s execution.
+statement An instruction that the Python interpreter can execute. So far we have only seen the assignment statement,
+but we will soon meet the import statement and the for statement.
+str A Python data type that holds a string of characters.
+value A number or string (or other things to be named later) that can be stored in a variable or computed in an
+expression.
+variable A name that refers to a value.
+variable name A name given to a variable. Variable names in Python consist of a sequence of letters (a..z, A..Z, and
+_) and digits (0..9) that begins with a letter. In best programming practice, variable names should be chosen so
+that they describe their use in the program, making the program self documenting.
