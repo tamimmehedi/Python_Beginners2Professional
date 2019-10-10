@@ -46,10 +46,14 @@ instant during the program’s execution.
 
 statement An instruction that the Python interpreter can execute. So far we have only seen the assignment statement,
 but we will soon meet the import statement and the for statement.
+
 str A Python data type that holds a string of characters.
+
 value A number or string (or other things to be named later) that can be stored in a variable or computed in an
 expression.
+
 variable A name that refers to a value.
+
 variable name A name given to a variable. Variable names in Python consist of a sequence of letters (a..z, A..Z, and
 _) and digits (0..9) that begins with a letter. In best programming practice, variable names should be chosen so
 that they describe their use in the program, making the program self documenting.
