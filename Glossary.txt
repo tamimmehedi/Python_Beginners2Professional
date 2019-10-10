@@ -23,9 +23,12 @@ expression A combination of variables, operators, and values that represents a s
 float A Python data type which stores floating-point numbers. Floating-point numbers are stored internally in two
 parts: a base and an exponent. When printed in the standard format, they look like decimal numbers. Beware of
 rounding errors when you use floats, and remember that they are only approximate values.
+
 floor division An operator (denoted by the token //) that divides one number by another and yields an integer, or, if
 the result is not already an integer, it yields the next smallest integer.
+
 int A Python data type that holds positive and negative whole numbers.
+
 keyword A reserved word that is used by the compiler to parse program; you cannot use keywords like if, def, and
 while as variable names.
 modulus operator An operator, denoted with a percent sign ( %), that works on integers and yields the remainder
