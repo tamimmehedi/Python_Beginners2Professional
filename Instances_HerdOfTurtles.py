@@ -27,3 +27,4 @@ alex.left(90)
 alex.forward(50)
 alex.left(90) # Make alex draw a square
 window.mainloop()
+
