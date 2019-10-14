@@ -5,4 +5,15 @@ Python’s for loop solves this for us. Let’s say we have some friends, and we
 them to our party. We don’t quite know how to send email yet, so for the moment we’ll just print a message for each
 friend:
 
- 
+for friend in ["Joe", "Zoe", "Zuki", "Thandi", "Paris"]:
+invite = "Hi " + friend + ". Please come to my party!"
+print(invite)
+# more code can follow here ...
+
+When we run this, the output looks like this:
+
+Hi Joe. Please come to my party!
+Hi Zoe. Please come to my party!
+Hi Zuki. Please come to my party!
+Hi Thandi. Please come to my party!
+Hi Paris. Please come to my party!
