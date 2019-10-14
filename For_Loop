@@ -1,0 +1,8 @@
+When we drew the square, it was quite tedious. We had to explicitly repeat the steps of moving and turning four times.
+If we were drawing a hexagon, or an octogon, or a polygon with 42 sides, it would have been worse.
+So a basic building block of all programs is to be able to repeat some code, over and over again.
+Python’s for loop solves this for us. Let’s say we have some friends, and we’d like to send them each an email inviting
+them to our party. We don’t quite know how to send email yet, so for the moment we’ll just print a message for each
+friend:
+
+ 
