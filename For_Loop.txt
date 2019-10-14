@@ -20,14 +20,18 @@ Hi Paris. Please come to my party!
 
 • The variable friend in the for statement at line 1 is called the loop variable. We could have chosen any
 other variable name instead, such as broccoli: the computer doesn’t care.
+
 • Lines 2 and 3 are the loop body. The loop body is always indented. The indentation determines exactly what
 statements are “in the body of the loop”.
+
 • On each iteration or pass of the loop, first a check is done to see if there are still more items to be processed.
 If there are none left (this is called the terminating condition of the loop), the loop has finished. Program
 execution continues at the next statement after the loop body, (e.g. in this case the next statement below the
 comment in line 4).
+
 • If there are items still to be processed, the loop variable is updated to refer to the next item in the list. This
 means, in this case, that the loop body is executed here 7 times, and each time friend will refer to a different
 friend.
+
 • At the end of each execution of the body of the loop, Python returns to the for statement, to see if there are
 more items to be handled, and to assign the next one to friend.
