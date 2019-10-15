@@ -2,3 +2,5 @@ As a program executes, the interpreter always keeps track of which statement is 
 control flow, of the flow of execution of the program. When humans execute programs, they often use their finger to
 point to each statement in turn. So we could think of control flow as “Python’s moving finger”.
 Control flow until now has been strictly top to bottom, one statement at a time. The for loop changes this.
+Control flow is often easy to visualize and understand if we draw a flowchart. This shows the exact steps and logic of
+how the for statement executes.
