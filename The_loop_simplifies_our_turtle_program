@@ -18,3 +18,13 @@ for i in range(4):   #Executes the body with i = 0, then 1, then 2, then 3
 
 for x in range(10):  #Sets x to each of ... [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+• Since we do not need or use the variable i in this case, we could replace it with _, although this is not important
+for the program flow, it is good style.
+• Computer scientists like to count from 0!
+• range can deliver a sequence of values to the loop variable in the for loop. They start at 0, and in these cases
+do not include the 4 or the 10.
+• Our little trick earlier to make sure that alex did the final turn to complete 360 degrees has paid off: if we had
+not done that, then we would not have been able to use a loop for the fourth side of the square. It would have
+become a “special case”, different from the other sides. When possible, we’d much prefer to make our code fit
+a general pattern, rather than have to create a special case.
+So to repeat something four times, a good Python programmer would do this:
