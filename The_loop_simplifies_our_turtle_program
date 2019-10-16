@@ -1,0 +1,28 @@
+To draw a square we’d like to do the same thing four times — move the turtle, and turn. We previously used 8 lines to
+have alex draw the four sides of a square. This does exactly the same, but using just three lines:
+
+  for i in [0,1,2,3]:
+  alex.forward(50)
+  alex.left(90)
+  
+Some observations:
+• While “saving some lines of code” might be convenient, it is not the big deal here. What is much more important
+is that we’ve found a “repeating pattern” of statements, and reorganized our program to repeat the pattern. Find-
+ing the chunks and somehow getting our programs arranged around those chunks is a vital skill in computational
+thinking.
+• The values [0,1,2,3] were provided to make the loop body execute 4 times. We could have used any four values,
+but these are the conventional ones to use. In fact, they are so popular that Python gives us special built-in
+range objects:
+1
+2
+3
+4
+28
+for i
+#
+for x
+#
+in range(4):
+Executes the body with i = 0, then 1, then 2, then 3
+in range(10):
+Sets x to each of ... [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
