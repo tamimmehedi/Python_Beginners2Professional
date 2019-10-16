@@ -32,3 +32,31 @@ become a “special case”, different from the other sides. When possible, we�
 a general pattern, rather than have to create a special case.
 
 So to repeat something four times, a good Python programmer would do this:
+
+So to repeat something four times, a good Python programmer would do this:
+
+for _ in range(4):
+  alex.forward(50)
+  alex.left(90)
+
+By now you should be able to see how to change our previous program so that tess can also use a for loop to draw
+her equilateral triangle.
+
+But now, what would happen if we made this change?
+
+for color in ["yellow", "red", "purple", "blue"]:
+  alex.color(color)
+  alex.forward(50)
+  alex.left(90)
+A variable can also be assigned a value that is a list. So lists can also be used in more general situations, not only in
+the for loop. The code above could be rewritten like this:
+
+# Assign a list to a variable
+colors = ["yellow", "red", "purple", "blue"]
+for color in colors:
+  alex.color(color)
+  alex.forward(50)
+  alex.left(90)
+
+• Notice the difference between the method alex.color, which is “part of” the instance alex, and the variable
+color, which is “part of” the main body of your program.
