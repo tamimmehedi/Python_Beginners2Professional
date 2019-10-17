@@ -24,17 +24,17 @@ alex.speed(10)
 A turtle can “stamp” its footprint onto the canvas, and this will remain after the turtle has moved somewhere else.
 Stamping works, even when the pen is up.
 Let’s do an example that shows off some of these new features:
-import turtle
-window = turtle.Screen()
-window.bgcolor("lightgreen")
-tess = turtle.Turtle()
-tess.shape("turtle")
-tess.color("blue")
-tess.penup()
-size = 20
-for _ in range(30):
-tess.stamp()
-size = size + 3
-tess.forward(size)
-tess.right(24)
-window.mainloop()
+  import turtle
+  window = turtle.Screen()
+  window.bgcolor("lightgreen")
+  tess = turtle.Turtle()
+  tess.shape("turtle")
+  tess.color("blue")
+  tess.penup()
+  size = 20
+  for _ in range(30):
+  tess.stamp()
+  size = size + 3
+  tess.forward(size)
+  tess.right(24)
+  window.mainloop()
