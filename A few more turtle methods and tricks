@@ -17,3 +17,24 @@ The methods are:
 Every turtle can have its own shape.The ones available “out of the box” are arrow, blank, circle, classic,
 square, triangle, turtle.
 alex.shape("turtle")
+We can speed up or slow down the turtle’s animation speed. (Animation controls how quickly the turtle turns and
+moves forward). Speed settings can be set between 1 (slowest) to 10 (fastest). But if we set the speed to 0, it has a
+special meaning — turn off animation and go as fast as possible.
+alex.speed(10)
+A turtle can “stamp” its footprint onto the canvas, and this will remain after the turtle has moved somewhere else.
+Stamping works, even when the pen is up.
+Let’s do an example that shows off some of these new features:
+import turtle
+window = turtle.Screen()
+window.bgcolor("lightgreen")
+tess = turtle.Turtle()
+tess.shape("turtle")
+tess.color("blue")
+tess.penup()
+size = 20
+for _ in range(30):
+tess.stamp()
+size = size + 3
+tess.forward(size)
+tess.right(24)
+window.mainloop()
