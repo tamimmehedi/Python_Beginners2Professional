@@ -1,0 +1,12 @@
+Turtle methods can use negative angles or distances. So tess.forward(-100) will move tess backwards, and
+tess.left(-30) turns her to the right. Additionally, because there are 360 degrees in a circle, turning 30 to the
+left will get tess facing in the same direction as turning 330 to the right! (The on-screen animation will differ, though
+— you will be able to tell if tess is turning clockwise or counter-clockwise!)
+This suggests that we don’t need both a left and a right turn method — we could be minimalists, and just have one
+method. There is also a backward method. (If you are very nerdy, you might enjoy saying alex.backward(-100)
+to move alex forward!)
+Part of thinking like a scientist is to understand more of the structure and rich relationships in our field. So revising a
+few basic facts about geometry and number lines, and spotting the relationships between left, right, backward, forward,
+negative and positive distances or angles values is a good start if we’re going to play with turtles.
+A turtle’s pen can be picked up or put down. This allows us to move a turtle to a different place without drawing a
+line.
