@@ -38,3 +38,8 @@ Let’s do an example that shows off some of these new features:
   tess.forward(size)
   tess.right(24)
   window.mainloop()
+Be careful now! How many times was the body of the loop executed? How many turtle images do we see on the
+screen? All except one of the shapes we see on the screen here are footprints created by stamp. But the program still
+only has one turtle instance — can you figure out which one here is the real tess? (Hint: if you’re not sure, write a
+new line of code after the for loop to change tess’ color, or to put her pen down and draw a line, or to change her
+shape,etc.
