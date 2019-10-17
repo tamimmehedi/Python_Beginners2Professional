@@ -10,3 +10,10 @@ few basic facts about geometry and number lines, and spotting the relationships 
 negative and positive distances or angles values is a good start if we’re going to play with turtles.
 A turtle’s pen can be picked up or put down. This allows us to move a turtle to a different place without drawing a
 line.
+The methods are:
+  alex.penup()
+  alex.forward(100)
+  alex.pendown() 
+Every turtle can have its own shape.The ones available “out of the box” are arrow, blank, circle, classic,
+square, triangle, turtle.
+alex.shape("turtle")
