@@ -16,3 +16,25 @@ NameError: name 'true' is not defined
 A Boolean expression is an expression that evaluates to produce a result which is a Boolean value. For example, the
 operator == tests if two values are equal. It produces (or yields) a Boolean value:
 
+  >>> 5
+  True
+  >>> 5
+  False
+  >>> j
+  >>> j
+  True
+  
+  In the first statement, the two operands evaluate to equal values, so the expression evaluates to True; in the second
+statement, 5 is not equal to 6, so we get False.
+
+Although these operations are probably familiar, the Python symbols are different from the mathematical symbols. A
+common error is to use a single equal sign (=) instead of a double equal sign (==). Remember that = is an assignment
+operator and == is a comparison operator. Also, there is no such thing as =< or =>.
+Like any other types we’ve seen so far, Boolean values can be assigned to variables, printed, etc.
+
+  >>> age = 19
+  >>> old_enough_to_get_driving_licence = age >= 18
+  >>> print(old_enough_to_get_driving_licence)
+  True
+  >>> type(old_enough_to_get_driving_licence)
+  <class 'bool'>
