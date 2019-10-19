@@ -1,0 +1,12 @@
+There are three logical operators, and, or, and not, that allow us to build more complex Boolean expressions from
+simpler Boolean expressions. The semantics (meaning) of these operators is similar to their meaning in English. For
+example, x > 0 and x < 10 produces True only if x is greater than 0 and at the same time, x is less than 10.
+n % 2 == 0 or n % 3 == 0 is True if either of the conditions is True, that is, if the number n is divisible
+by 2 or it is divisible by 3. (What do you think happens if n is divisible by both 2 and by 3 at the same time? Will the
+expression yield True or False? Try it in your Python interpreter.)
+Finally, the not operator negates a Boolean value, so not (x > y) is True if (x > y) is False, that is, if x is
+less than or equal to y. In other words: not True is False, and not False is True.
+The expression on the left of the or operator is evaluated first: if the result is True, Python does not (and need not)
+evaluate the expression on the right — this is called short-circuit evaluation. Similarly, for the and operator, if the
+expression on the left yields False, Python does not evaluate the expression on the right.
+So there are no unnecessary evaluations.
