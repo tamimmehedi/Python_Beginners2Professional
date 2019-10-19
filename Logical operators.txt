@@ -7,6 +7,7 @@ expression yield True or False? Try it in your Python interpreter.)
 
 Finally, the not operator negates a Boolean value, so not (x > y) is True if (x > y) is False, that is, if x is
 less than or equal to y. In other words: not True is False, and not False is True.
+
 The expression on the left of the or operator is evaluated first: if the result is True, Python does not (and need not)
 evaluate the expression on the right — this is called short-circuit evaluation. Similarly, for the and operator, if the
 expression on the left yields False, Python does not evaluate the expression on the right.
