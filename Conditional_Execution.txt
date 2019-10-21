@@ -2,12 +2,12 @@ In order to write useful programs, we almost always need the ability to check co
 the program accordingly. Conditional statements give us this ability. The simplest form is the if statement:
 
 if x % 2 == 0:
-print(x, "is even.")
-print("Did you know that 2 is the only even number that is prime?")
+  print(x, "is even.")
+  print("Did you know that 2 is the only even number that is prime?")
+  
 else:
-print(x, "
-print("Did
+  print(x, "is odd.")
+  print("Did
 
-is odd.")
 you know that multiplying two odd numbers " +
 "always gives an odd result?")
