@@ -1,0 +1,14 @@
+In order to write useful programs, we almost always need the ability to check conditions and change the behavior of
+the program accordingly. Conditional statements give us this ability. The simplest form is the if statement:
+
+if x % 2 == 0:
+print(x, "is even.")
+print("Did
+else:
+print(x, "
+print("Did
+
+you know that 2 is the only even number that is prime?")
+is odd.")
+you know that multiplying two odd numbers " +
+"always gives an odd result?")
