@@ -9,4 +9,5 @@ if x < 0:
 print("The square root of ", x, "is", math.sqrt(x))
 
 In this case, the print function that outputs the square root is the one after the if — not because we left a blank line,
-but because of the way the code is indented. Note too that the function call math.sqrt(x) will give an error unless
+but because of the way the code is indented. Note too that the function call math.sqrt(x) will give an error unless we 
+have an import math statement, usually placed near the top of our script.
