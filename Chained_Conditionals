@@ -1,0 +1,15 @@
+Sometimes there are more than two possibilities and we need more than two branches. One way to express a compu-
+tation like that is a chained conditional:
+1
+2
+3
+4
+5
+6
+if x < y:
+<STATEMENTS_A>
+elif x > y:
+<STATEMENTS_B>
+else:
+<STATEMENTS_C>
+# x == y
