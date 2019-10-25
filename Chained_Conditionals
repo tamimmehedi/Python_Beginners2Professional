@@ -7,4 +7,9 @@ elif x > y:
   <STATEMENTS_B>
 else:     # x == y   
   <STATEMENTS_C>
+  
+elif is an abbreviation of else if. Again, exactly one branch will be executed. There is no limit of the number of
+elif statements but only a single (and optional) final else statement is allowed and it must be the last branch
+in the statement:
+
 
