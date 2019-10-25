@@ -12,4 +12,11 @@ elif is an abbreviation of else if. Again, exactly one branch will be executed. 
 elif statements but only a single (and optional) final else statement is allowed and it must be the last branch
 in the statement:
 
-
+if choice == "a":
+  function_one()
+elif choice == "b":
+  function_two()
+elif choice == "c":
+  function_three()
+else:
+  print("Invalid choice.")
