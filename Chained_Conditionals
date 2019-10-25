@@ -20,3 +20,7 @@ elif choice == "c":
   function_three()
 else:
   print("Invalid choice.")
+
+Each condition is checked in order. If the first is false, the next is checked, and so on. If one of them is true,
+the corresponding branch executes, and the statement ends. Even if more than one condition is true, only the 
+first true branch executes.
