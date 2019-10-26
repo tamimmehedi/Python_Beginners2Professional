@@ -23,3 +23,6 @@ if 0 < x:      # Assume x is an int here
 The print function is called only if we make it past both the conditionals, so instead of the above which uses two
 if statements each with a simple condition, we could make a more complex condition using the and operator. Now
 we only need a single if statement:
+
+if 0 < x and x < 10:
+  print("x is a positive single digit.")
