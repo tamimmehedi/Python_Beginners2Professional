@@ -26,3 +26,8 @@ we only need a single if statement:
 
 if 0 < x and x < 10:
   print("x is a positive single digit.")
+  
+In this case there is a third option:
+
+if 0 < x < 10:
+  print("x is a positive single digit.")
