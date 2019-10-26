@@ -15,3 +15,7 @@ Although the indentation of the statements makes the structure apparent, nested 
 difficult to read. In general, it is a good idea to avoid them when we can.
 Logical operators often provide a way to simplify nested conditional statements. For example, we can rewrite the
 following code using a single conditional:
+
+if 0 < x:      # Assume x is an int here
+  if x < 10:
+    print("x is a positive single digit.")
