@@ -1,2 +1,17 @@
 One conditional can also be nested within another. (It is the same theme of composability, again!) We could have
 written the previous example as follows:
+
+if x < y:
+  <STATEMENTS_A>
+else:
+if x > y:
+  <STATEMENTS_B>
+else:
+  <STATEMENTS_C>
+  
+The outer conditional contains two branches. The second branch contains another if statement, which has two
+branches of its own. Those two branches could contain conditional statements as well.
+Although the indentation of the statements makes the structure apparent, nested conditionals very quickly become very
+difficult to read. In general, it is a good idea to avoid them when we can.
+Logical operators often provide a way to simplify nested conditional statements. For example, we can rewrite the
+following code using a single conditional:
