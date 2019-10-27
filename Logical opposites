@@ -37,3 +37,6 @@ Boolean expressions are:
 
 (not (x and y)) == ((not x) or (not y))
 (not (x or y))  == ((not x) and (not y))
+
+For example, suppose we can slay the dragon only if our magic lightsabre sword is charged to 90% or higher, and we
+have 100 or more energy units in our protective shield. We find this fragment of Python code in the game:
