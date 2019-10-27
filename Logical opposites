@@ -34,3 +34,6 @@ if age < 18:
     
 Two powerful simplification laws (called de Morgan’s laws) that are often helpful when dealing with complicated
 Boolean expressions are:
+
+(not (x and y)) == ((not x) or (not y))
+(not (x or y))  == ((not x) and (not y))
