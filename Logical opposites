@@ -26,3 +26,9 @@ For example, if we wrote this Python:
 
 if not (age >= 18):
     print("Hey, you're too young to get a driving licence!")
+
+it would probably be clearer to use the simplification laws, and to write instead:
+
+if age < 18:
+    print("Hey, you're too young to get a driving licence!")
+    
