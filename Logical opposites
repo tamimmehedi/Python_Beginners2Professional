@@ -1,3 +1,22 @@
-Each of the six relational operators has a logical opposite: for example, suppose we can get a driving licence when our
-age is greater or equal to 18, we can not get the driving licence when we are less than 18.
+Each of the six relational operators has a logical opposite: for example, suppose we can get a driving licence 
+when our age is greater or equal to 18, we can not get the driving licence when we are less than 18.
 Notice that the opposite of >= is <.
+
+operator:
+
+    ==
+    !=
+    <
+    <=
+    >
+    >=
+    
+logical opposite:
+
+    !=
+    ==
+    >=
+    >
+    <=
+    <
+
