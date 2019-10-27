@@ -32,3 +32,5 @@ it would probably be clearer to use the simplification laws, and to write instea
 if age < 18:
     print("Hey, you're too young to get a driving licence!")
     
+Two powerful simplification laws (called de Morgan’s laws) that are often helpful when dealing with complicated
+Boolean expressions are:
