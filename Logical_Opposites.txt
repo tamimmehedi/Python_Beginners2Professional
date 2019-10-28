@@ -61,3 +61,12 @@ if sword_check and shield_check:
     print("The dragon crumples in a heap. You rescue the gorgeous princess!")
 else:
     print("Your attack has no effect, the dragon fries you to a crisp!")
+    
+This version is probably the best of the four, because it very closely matches the initial English statement. Clarity of
+our code (for other humans), and making it easy to see that the code does what was expected should always be highest
+priority.
+
+As our programming skills develop we’ll find we have more than one way to solve any problem. So good programs
+are designed. We make choices that favour clarity, simplicity, and elegance. The job title software architect says a
+lot about what we do — we are architects who engineer our products to balance beauty, functionality, simplicity and
+clarity in our creations.
