@@ -48,3 +48,8 @@ else:
 
 de Morgan’s laws together with the logical opposites would let us rework the condition in a (perhaps) easier to under-
 stand way like this:
+
+if sword_charge < 0.90 or shield_energy < 100:
+    print("Your attack has no effect, the dragon fries you to a crisp!")
+else:
+    print("The dragon crumples in a heap. You rescue the gorgeous princess!")
