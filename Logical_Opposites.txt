@@ -46,3 +46,8 @@ else:
     
 We could also get rid of the not by swapping around the then and else parts of the conditional. So here is a third
 version, also equivalent:
+
+if sword_charge >= 0.90 and shield_energy >= 100:
+    print("The dragon crumples in a heap. You rescue the gorgeous princess!")
+else:
+    print("Your attack has no effect, the dragon fries you to a crisp!")
