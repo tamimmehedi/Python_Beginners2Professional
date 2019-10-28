@@ -4,21 +4,11 @@ Notice that the opposite of >= is <.
 
 operator:
 
-    ==
-    !=
-    <
-    <=
-    >
-    >=
+    ==    !=    <    <=    >    >=
     
 logical opposite:
 
-    !=
-    ==
-    >=
-    >
-    <=
-    <
+    !=    ==    >=    >    <=    <
 
 Understanding these logical opposites allows us to sometimes get rid of not operators. not operators are often quite
 difficult to read in computer code, and our intentions will usually be clearer if we can eliminate them.
@@ -53,3 +43,6 @@ if sword_charge < 0.90 or shield_energy < 100:
     print("Your attack has no effect, the dragon fries you to a crisp!")
 else:
     print("The dragon crumples in a heap. You rescue the gorgeous princess!")
+    
+We could also get rid of the not by swapping around the then and else parts of the conditional. So here is a third
+version, also equivalent:
