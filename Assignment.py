@@ -5,3 +5,8 @@ makes an existing variable refer to a new value (and stop referring to the old v
     print(airtime_remaining)
     airtime_remaining = 7
     print(airtime_remaining)
+    
+ The output of this program is:
+    15
+    7
+    
