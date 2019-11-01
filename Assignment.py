@@ -25,3 +25,9 @@ of them, they don’t have to stay that way:
 a = 5
 b = a
 a = 3
+
+The third line changes the value of a but does not change the value of b, so they are no longer equal. (In some
+programming languages, a different symbol is used for assignment, such as <- or :=, to avoid confusion. Some
+people also think that variable was an unfortunae word to choose, and instead we should have called them assignables.
+Python chooses to follow common terminology and token usage, also found in languages like C, C++, Java, and C#,
+so we use the tokens = for assignment, == for equality, and we talk of variables.
