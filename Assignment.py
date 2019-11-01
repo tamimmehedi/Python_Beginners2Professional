@@ -21,3 +21,7 @@ Python, the statement a = 7 is legal and 7 = a is not.
 
 In Python, an assignment statement can make two variables equal, but because further assignments can change either
 of them, they don’t have to stay that way:
+    
+a = 5
+b = a
+a = 3
