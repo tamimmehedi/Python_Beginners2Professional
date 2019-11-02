@@ -26,3 +26,7 @@ If you try to get the value of a variable that has never been assigned to, you�
 Line 3 — updating a variable by adding 1 to it — is very common. It is called an increment of the variable; subtracting
 1 is called a decrement. Sometimes programmers also talk about bumping a variable, which means the same as
 incrementing it by 1. This is commonly done with the += operator.
+
+  runs_scored = 0
+  ...
+  runs_scored += 1
