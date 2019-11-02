@@ -1,0 +1,3 @@
+When an assignment statement is executed, the right-hand side expression (i.e. the expression that comes after the
+assignment token) is evaluated first. This produces a value. Then the assignment is made, so that the variable on the
+left-hand side now refers to the new value.
