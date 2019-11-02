@@ -17,4 +17,9 @@ If you try to get the value of a variable that has never been assigned to, youâ€
   File "<interactive input>", line 1, in
   NameError: name 'x' is not defined
  
+ Before you can update a variable, you have to initialize it to some starting value, usually with a simple assignment:
+ 
+   runs_scored = 0
+   ...
+   runs_scored = runs_scored + 1
  
