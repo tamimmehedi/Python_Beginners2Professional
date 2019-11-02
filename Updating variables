@@ -11,3 +11,10 @@ value. Deduct 40 cents from my airtime balance, or add one run to the scoreboard
 Line 2 means get the current value of n, multiply it by three and add one, and assign the answer to n, thus making n
 refer to the value. So after executing the two lines above, n will point/refer to the integer 16.
 If you try to get the value of a variable that has never been assigned to, you’ll get an error:
+
+  >>> w = x + 1
+  Traceback (most recent call last):
+  File "<interactive input>", line 1, in
+  NameError: name 'x' is not defined
+ 
+ 
