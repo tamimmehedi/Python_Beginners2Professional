@@ -4,3 +4,7 @@ left-hand side now refers to the new value.
 
 One of the most common forms of assignment is an update, where the new value of the variable depends on its old
 value. Deduct 40 cents from my airtime balance, or add one run to the scoreboard.
+
+  n = 5
+  n = 3 * n + 1
+
