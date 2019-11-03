@@ -14,7 +14,7 @@ value of zero, and then we need to traverse the items in the list. For each item
 by adding the next number to it.
 
   numbers = [5, 6, 32, 21, 9]
-running_total = 0
-for number in numbers:
-running_total = running_total + number
-print(running_total)
+  running_total = 0
+  for number in numbers:
+  running_total = running_total + number
+  print(running_total)
