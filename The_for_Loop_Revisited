@@ -4,3 +4,11 @@ and the body of the loop is executed. We saw this example before:
   for friend in ["Joe", "Zoe", "Zuki", "Thandi", "Paris"]:
   invite = "Hi " + friend + ". Please come to my party!"
   print(invite)
+
+Running through all the items in a list is called traversing the list, or traversal.
+Let us write some code now to sum up all the elements in a list of numbers. Do this by hand first, and try to isolate
+exactly what steps you take. You’ll find you need to keep some “running total” of the sum so far, either on a piece of
+paper, in your head, or in your calculator. Remembering things from one step to the next is precisely why we have
+variables in a program: so we’ll need some variable to remember the “running total”. It should be initialized with a
+value of zero, and then we need to traverse the items in the list. For each item, we’ll want to update the running total
+by adding the next number to it.
