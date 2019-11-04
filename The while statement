@@ -12,6 +12,7 @@ You can almost read the while statement as if it were English. It means, while i
 executing the body of the loop. Within the body, each time, increment i. When i passes n, return your accumulated
 sum. In other words: while <CONDITION> is True, <STATEMENT> is executed. Of course, this example could be
 written more concisely as sum(range(n + 1)) because the function sum already exists.
+
 More formally, here is precise flow of execution for a while statement:
 • Evaluate the condition at line 5, yielding a value which is either False or True.
 • If the value is False, exit the while statement and continue execution at the next statement (line 8 in this
