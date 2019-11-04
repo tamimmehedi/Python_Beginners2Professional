@@ -7,3 +7,22 @@ Here is a fragment of code that demonstrates the use of the while statement:
     current_sum += i
     i += 1
   print(current_sum)
+
+You can almost read the while statement as if it were English. It means, while i is less than or equal to n, continue
+executing the body of the loop. Within the body, each time, increment i. When i passes n, return your accumulated
+sum. In other words: while <CONDITION> is True, <STATEMENT> is executed. Of course, this example could be
+written more concisely as sum(range(n + 1)) because the function sum already exists.
+More formally, here is precise flow of execution for a while statement:
+• Evaluate the condition at line 5, yielding a value which is either False or True.
+• If the value is False, exit the while statement and continue execution at the next statement (line 8 in this
+case).
+• If the value is True, execute each of the statements in the body (lines 6 and 7) and then go back to the while
+statement at line 5.
+The body consists of all of the statements indented below the while keyword.
+Notice that if the loop condition is False the first time we get loop, the statements in the body of the loop are never
+executed.
+The body of the loop should change the value of one or more variables so that eventually the condition becomes false
+and the loop terminates. Otherwise the loop will repeat forever, which is called an infinite loop.
+In the case here, we can prove that the loop terminates because we know that the value of n is finite, and we can see
+that the value of i increments each time through the loop, so eventually it will have to exceed n. In other cases it is
+not so easy, maybe even impossible, to tell if the loop will ever terminate.
