@@ -26,6 +26,7 @@ executed.
 
 The body of the loop should change the value of one or more variables so that eventually the condition becomes false
 and the loop terminates. Otherwise the loop will repeat forever, which is called an infinite loop.
+
 In the case here, we can prove that the loop terminates because we know that the value of n is finite, and we can see
 that the value of i increments each time through the loop, so eventually it will have to exceed n. In other cases it is
 not so easy, maybe even impossible, to tell if the loop will ever terminate.
