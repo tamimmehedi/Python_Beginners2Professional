@@ -19,6 +19,7 @@ More formally, here is precise flow of execution for a while statement:
 case).
 • If the value is True, execute each of the statements in the body (lines 6 and 7) and then go back to the while
 statement at line 5.
+
 The body consists of all of the statements indented below the while keyword.
 Notice that if the loop condition is False the first time we get loop, the statements in the body of the loop are never
 executed.
