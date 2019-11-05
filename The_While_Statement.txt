@@ -41,3 +41,8 @@ is an equivalent snippet that uses for instead:
     for i in range(n+1):
       current_sum += i
     print(current_sum)
+
+Notice the slightly tricky call to the range function — we had to add one onto n, because range generates its list
+up to but excluding the value you give it. It would be easy to make a programming mistake and overlook this.
+So why have two kinds of loop if for looks easier? This next example shows a case where we need the extra power
+that we get from the while loop.
