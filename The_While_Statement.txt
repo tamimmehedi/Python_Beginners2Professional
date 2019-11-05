@@ -30,3 +30,8 @@ and the loop terminates. Otherwise the loop will repeat forever, which is called
 In the case here, we can prove that the loop terminates because we know that the value of n is finite, and we can see
 that the value of i increments each time through the loop, so eventually it will have to exceed n. In other cases it is
 not so easy, maybe even impossible, to tell if the loop will ever terminate.
+
+What you will notice here is that the while loop is more work for you — the programmer — than the equivalent
+for loop. When using a while loop one has to manage the loop variable yourself: give it an initial value, test for
+completion, and then make sure you change something in the body so that the loop terminates. By comparison, here
+is an equivalent snippet that uses for instead:
