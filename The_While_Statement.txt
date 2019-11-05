@@ -35,3 +35,9 @@ What you will notice here is that the while loop is more work for you — the pr
 for loop. When using a while loop one has to manage the loop variable yourself: give it an initial value, test for
 completion, and then make sure you change something in the body so that the loop terminates. By comparison, here
 is an equivalent snippet that uses for instead:
+
+n = 6
+current_sum = 0
+for i in range(n+1):
+current_sum += i
+print(current_sum)
