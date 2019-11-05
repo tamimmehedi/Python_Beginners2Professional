@@ -39,5 +39,5 @@ is an equivalent snippet that uses for instead:
     n = 6
     current_sum = 0
     for i in range(n+1):
-    current_sum += i
+      current_sum += i
     print(current_sum)
