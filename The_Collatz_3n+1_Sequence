@@ -1,6 +1,8 @@
 Let’s look at a simple sequence that has fascinated and foxed mathematicians for many years. They still cannot answer
 even quite simple questions about this.
+
 The “computational rule” for creating the sequence is to start from some given n, and to generate the next term of
 the sequence from n, either by halving n, (whenever n is even), or else by multiplying it by three and adding 1. The
 sequence terminates when n reaches 1.
+
 This Python snippet captures that algorithm:
