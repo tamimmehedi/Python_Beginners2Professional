@@ -38,6 +38,7 @@ Particular values aside, the interesting question was first posed by a German ma
 Collatz conjecture (also known as the 3n + 1 conjecture), is that this sequence terminates for all positive values of n.
 So far, no one has been able to prove it or disprove it! (A conjecture is a statement that might be true, but nobody
 knows for sure.)
+
 Think carefully about what would be needed for a proof or disproof of the conjecture “All positive integers will
 eventually converge to 1 using the Collatz rules”. With fast computers we have been able to test every integer up to
 very large values, and so far, they have all eventually ended up at 1. But who knows? Perhaps there is some as-yet
