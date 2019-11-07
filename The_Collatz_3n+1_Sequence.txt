@@ -43,6 +43,7 @@ Think carefully about what would be needed for a proof or disproof of the conjec
 eventually converge to 1 using the Collatz rules”. With fast computers we have been able to test every integer up to
 very large values, and so far, they have all eventually ended up at 1. But who knows? Perhaps there is some as-yet
 untested number which does not reduce to 1.
+
 You’ll notice that if you don’t stop when you reach 1, the sequence gets into its own cyclic loop: 1, 4, 2, 1, 4, 2, 1, 4
 . . . So one possibility is that there might be other cycles that we just haven’t found yet.
 Wikipedia has an informative article about the Collatz conjecture. The sequence also goes under other names (Hail-
