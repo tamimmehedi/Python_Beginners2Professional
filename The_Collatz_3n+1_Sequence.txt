@@ -46,6 +46,7 @@ untested number which does not reduce to 1.
 
 You’ll notice that if you don’t stop when you reach 1, the sequence gets into its own cyclic loop: 1, 4, 2, 1, 4, 2, 1, 4
 . . . So one possibility is that there might be other cycles that we just haven’t found yet.
+
 Wikipedia has an informative article about the Collatz conjecture. The sequence also goes under other names (Hail-
 stone sequence, Wonderous numbers, etc.), and you’ll find out just how many integers have already been tested by
 computer, and found to converge!
