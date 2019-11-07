@@ -24,6 +24,7 @@ final value of n followed by a period and a newline character. (You’ll cover t
 
 The condition for continuing with this loop is n != 1, so the loop will continue running until it reaches its termination
 condition, (i.e. n == 1).
+
 Each time through the loop, the program outputs the value of n and then checks whether it is even or odd. If it is even,
 the value of n is divided by 2 using integer division. If it is odd, the value is replaced by n * 3 + 1.
 Since n sometimes increases and sometimes decreases, there is no obvious proof that n will ever reach 1, or that the
