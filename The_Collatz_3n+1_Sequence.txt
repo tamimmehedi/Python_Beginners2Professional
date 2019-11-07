@@ -32,6 +32,7 @@ Since n sometimes increases and sometimes decreases, there is no obvious proof t
 program terminates. For some particular values of n, we can prove termination. For example, if the starting value is
 a power of two, then the value of n will be even each time through the loop until it reaches 1. The previous example
 ends with such a sequence, starting with 16.
+
 See if you can find a small starting number that needs more than a hundred steps before it terminates.
 Particular values aside, the interesting question was first posed by a German mathematician called Lothar Collatz: the
 Collatz conjecture (also known as the 3n + 1 conjecture), is that this sequence terminates for all positive values of n.
