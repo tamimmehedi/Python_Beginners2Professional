@@ -55,6 +55,7 @@ Use a for loop if you know, before you start looping, the maximum number of time
 body. For example, if you’re traversing a list of elements, you know that the maximum number of loop iterations you
 can possibly need is “all the elements in the list”. Or if you need to print the 12 times table, we know right away how
 many times the loop will need to run.
+
 So any problem like “iterate this weather model for 1000 cycles”, or “search this list of words”, “find all prime numbers
 up to 10000” suggest that a for loop is best.
 By contrast, if you are required to repeat some computation until some condition is met, and you cannot calculate in
