@@ -50,3 +50,15 @@ You’ll notice that if you don’t stop when you reach 1, the sequence gets int
 Wikipedia has an informative article about the Collatz conjecture. The sequence also goes under other names (Hail-
 stone sequence, Wonderous numbers, etc.), and you’ll find out just how many integers have already been tested by
 computer, and found to converge!
+
+Use a for loop if you know, before you start looping, the maximum number of times that you’ll need to execute the
+body. For example, if you’re traversing a list of elements, you know that the maximum number of loop iterations you
+can possibly need is “all the elements in the list”. Or if you need to print the 12 times table, we know right away how
+many times the loop will need to run.
+So any problem like “iterate this weather model for 1000 cycles”, or “search this list of words”, “find all prime numbers
+up to 10000” suggest that a for loop is best.
+By contrast, if you are required to repeat some computation until some condition is met, and you cannot calculate in
+advance when (of if) this will happen, as we did in this 3n + 1 problem, you’ll need a while loop.
+We call the first case definite iteration — we know ahead of time some definite bounds for what is needed. The latter
+case is called indefinite iteration — we’re not sure how many iterations we’ll need — we cannot even establish an
+upper bound!
