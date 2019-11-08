@@ -1,0 +1,10 @@
+To write effective computer programs, and to build a good conceptual model of program execution, a programmer
+needs to develop the ability to trace the execution of a computer program. Tracing involves becoming the computer
+and following the flow of execution through a sample program run, recording the state of all variables and any output
+the program generates after each instruction is executed.
+To understand this process, let’s trace the call to the collatz code above with n = 3 from the previous section. At the
+start of the trace, we have a variable, n, with an initial value of 3. Since 3 is not equal to 1, the while loop body is
+executed. 3 is printed and 3 % 2 == 0 is evaluated. Since it evaluates to False, the else branch is executed and
+3 * 3 + 1 is evaluated and assigned to n.
+To keep track of all this as you hand trace a program, make a column heading on a piece of paper for each variable
+created as the program runs and another one for output. Our trace so far would look something like this:
