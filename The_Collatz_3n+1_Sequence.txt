@@ -58,6 +58,7 @@ many times the loop will need to run.
 
 So any problem like “iterate this weather model for 1000 cycles”, or “search this list of words”, “find all prime numbers
 up to 10000” suggest that a for loop is best.
+
 By contrast, if you are required to repeat some computation until some condition is met, and you cannot calculate in
 advance when (of if) this will happen, as we did in this 3n + 1 problem, you’ll need a while loop.
 We call the first case definite iteration — we know ahead of time some definite bounds for what is needed. The latter
