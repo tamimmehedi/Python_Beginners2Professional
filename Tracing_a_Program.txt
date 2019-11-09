@@ -14,3 +14,6 @@ created as the program runs and another one for output. Our trace so far would l
     n   output printed so far
     3  3,
     10
+
+Since 10 != 1 evaluates to True, the loop body is again executed, and 10 is printed. 10 % 2 == 0 is true, so the
+if branch is executed and n becomes 5. By the end of the trace we have:
