@@ -10,3 +10,7 @@ executed. 3 is printed and 3 % 2 == 0 is evaluated. Since it evaluates to False,
 
 To keep track of all this as you hand trace a program, make a column heading on a piece of paper for each variable
 created as the program runs and another one for output. Our trace so far would look something like this:
+
+    n   output printed so far
+    3  3,
+    10
