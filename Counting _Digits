@@ -6,3 +6,10 @@ The following snippet counts the number of decimal digits in a positive integer:
   count = count + 1
   n = n // 10
   print(count)
+
+Trace the execution to convince yourself that it works.
+This snippet demonstrates an important pattern of computation called a counter. The variable count is initialized to
+0 and then incremented each time the loop body is executed. When the loop exits, count contains the result — the
+total number of times the loop body was executed, which is the same as the number of digits.
+If we wanted to only count digits that are either 0 or 5, adding a conditional before incrementing the counter will do
+the trick:
