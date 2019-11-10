@@ -8,6 +8,7 @@ The following snippet counts the number of decimal digits in a positive integer:
   print(count)
 
 Trace the execution to convince yourself that it works.
+
 This snippet demonstrates an important pattern of computation called a counter. The variable count is initialized to
 0 and then incremented each time the loop body is executed. When the loop exits, count contains the result — the
 total number of times the loop body was executed, which is the same as the number of digits.
