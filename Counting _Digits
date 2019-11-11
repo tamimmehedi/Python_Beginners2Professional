@@ -24,3 +24,6 @@ the trick:
     count = count + 1
     n = n // 10
     print(count)
+
+Notice, however, that if n = 0 this snippet will not print 1 as answer. Explain why. Do you think this is a bug in the
+code, or a bug in the specifications, or our expectations?
