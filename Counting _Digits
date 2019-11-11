@@ -15,3 +15,12 @@ total number of times the loop body was executed, which is the same as the numbe
 
 If we wanted to only count digits that are either 0 or 5, adding a conditional before incrementing the counter will do
 the trick:
+
+    n = 2574301453
+    count = 0
+    while n > 0:
+    digit = n % 10
+    if digit == 0 or digit == 5:
+    count = count + 1
+    n = n // 10
+    print(count)
