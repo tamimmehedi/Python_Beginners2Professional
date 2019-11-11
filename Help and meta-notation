@@ -1,0 +1,7 @@
+Python comes with extensive documentation for all its built-in functions, and its libraries. Different systems have
+different ways of accessing this help. See for example https://docs.python.org/3/library/stdtypes.html#typesseq-range
+Notice the square brackets in the description of the arguments. These are examples of meta-notation — notation that
+describes Python syntax, but is not part of it. The square brackets in this documentation mean that the argument is
+optional — the programmer can omit it. So what this first line of help tells us is that range must always have a stop
+argument, but it may have an optional start argument (which must be followed by a comma if it is present), and it
+can also have an optional step argument, preceded by a comma if it is present.
