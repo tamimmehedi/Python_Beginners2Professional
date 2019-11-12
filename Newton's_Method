@@ -5,6 +5,8 @@ with almost any approximation, you can compute a better approximation with the f
 
     better =  1/2 * (approx + n/approx)
     
-Execute this algorithm a few times using your calculator. Can you see why each iteration brings your estimate a little closer? One of the amazing properties of this particular algorithm is how quickly it converges to an accurate answer.
+Execute this algorithm a few times using your calculator. Can you see why each iteration brings your estimate a little closer? One 
+of the amazing properties of this particular algorithm is how quickly it converges to an accurate answer.
 
-The following implementation of Newton’s method requires two parameters. The first is the value whose square root will be approximated. The second is the number of times to iterate the calculation yielding a better result.
+The following implementation of Newton’s method requires two parameters. The first is the value whose square root will be approximated. 
+The second is the number of times to iterate the calculation yielding a better result.
