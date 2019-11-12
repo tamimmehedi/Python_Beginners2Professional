@@ -10,3 +10,14 @@ of the amazing properties of this particular algorithm is how quickly it converg
 
 The following implementation of Newton’s method requires two parameters. The first is the value whose square root will be approximated. 
 The second is the number of times to iterate the calculation yielding a better result.
+
+        def newtonSqrt(n, howmany):
+            approx = 0.5 * n
+            for i in range(howmany):
+                betterapprox = 0.5 * (approx + n/approx)
+                approx = betterapprox
+            return betterapprox
+
+        print(newtonSqrt(100, 10))
+        print(newtonSqrt(4, 10))
+        print(newtonSqrt(1, 10))
