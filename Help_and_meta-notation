@@ -18,4 +18,5 @@ means you can substitute any legal variable and any legal list when you write yo
 This (simplified) description of the print function, shows another example of meta-notation in which the ellipses
 (...) mean that you can have as many objects as you like (even zero), separated by commas:
 print( [object, . . . ] )
+
 Meta-notation gives us a concise and powerful way to describe the pattern of some syntax or feature.
