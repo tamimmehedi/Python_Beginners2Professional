@@ -11,7 +11,9 @@ and go up or down in increments other than 1. The documentation here also says t
 Other meta-notation you’ll frequently encounter is the use of bold and italics. The bold means that these are tokens —
 keywords or symbols — typed into your Python code exactly as they are, whereas the italic terms stand for “something
 of this type”. So the syntax description
+
 for variable in list :
+
 means you can substitute any legal variable and any legal list when you write your Python code.
 This (simplified) description of the print function, shows another example of meta-notation in which the ellipses
 (...) mean that you can have as many objects as you like (even zero), separated by commas:
