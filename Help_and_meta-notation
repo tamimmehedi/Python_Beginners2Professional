@@ -5,6 +5,7 @@ describes Python syntax, but is not part of it. The square brackets in this docu
 optional — the programmer can omit it. So what this first line of help tells us is that range must always have a stop
 argument, but it may have an optional start argument (which must be followed by a comma if it is present), and it
 can also have an optional step argument, preceded by a comma if it is present.
+
 The examples from help show that range can have either 1, 2 or 3 arguments. The list can start at any starting value,
 and go up or down in increments other than 1. The documentation here also says that the arguments must be integers.
 Other meta-notation you’ll frequently encounter is the use of bold and italics. The bold means that these are tokens —
