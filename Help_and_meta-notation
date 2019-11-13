@@ -1,0 +1,18 @@
+Python comes with extensive documentation for all its built-in functions, and its libraries. Different systems have
+different ways of accessing this help. See for example https://docs.python.org/3/library/stdtypes.html#typesseq-range
+Notice the square brackets in the description of the arguments. These are examples of meta-notation — notation that
+describes Python syntax, but is not part of it. The square brackets in this documentation mean that the argument is
+optional — the programmer can omit it. So what this first line of help tells us is that range must always have a stop
+argument, but it may have an optional start argument (which must be followed by a comma if it is present), and it
+can also have an optional step argument, preceded by a comma if it is present.
+The examples from help show that range can have either 1, 2 or 3 arguments. The list can start at any starting value,
+and go up or down in increments other than 1. The documentation here also says that the arguments must be integers.
+Other meta-notation you’ll frequently encounter is the use of bold and italics. The bold means that these are tokens —
+keywords or symbols — typed into your Python code exactly as they are, whereas the italic terms stand for “something
+of this type”. So the syntax description
+for variable in list :
+means you can substitute any legal variable and any legal list when you write your Python code.
+This (simplified) description of the print function, shows another example of meta-notation in which the ellipses
+(...) mean that you can have as many objects as you like (even zero), separated by commas:
+print( [object, . . . ] )
+Meta-notation gives us a concise and powerful way to describe the pattern of some syntax or feature.
