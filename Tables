@@ -6,6 +6,7 @@ tended to be full of errors.
 When computers appeared on the scene, one of the initial reactions was, “This is great! We can use the computers to
 generate the tables, so there will be no errors.” That turned out to be true (mostly) but shortsighted. Soon thereafter,
 computers and calculators were so pervasive that the tables became obsolete.
+
 Well, almost. For some operations, computers use tables of values to get an approximate answer and then perform
 computations to improve the approximation. In some cases, there have been errors in the underlying tables, most
 famously in the table the Intel Pentium processor chip used to perform floating-point division.
