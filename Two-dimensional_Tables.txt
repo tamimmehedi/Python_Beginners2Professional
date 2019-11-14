@@ -1,3 +1,7 @@
 A two-dimensional table is a table where you read the value at the intersection of a row and a column. A multiplication
 table is a good example. Let’s say you want to print a multiplication table for the values from 1 to 6.
 A good way to start is to write a loop that prints the multiples of 2, all on one line:
+
+  for i in range(1, 7):
+    print(2 * i, end="  ")
+  print()
