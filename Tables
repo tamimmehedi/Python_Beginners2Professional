@@ -2,6 +2,7 @@ One of the things loops are good for is generating tables. Before computers were
 calculate logarithms, sines and cosines, and other mathematical functions by hand. To make that easier, mathematics
 books contained long tables listing the values of these functions. Creating the tables was slow and boring, and they
 tended to be full of errors.
+
 When computers appeared on the scene, one of the initial reactions was, “This is great! We can use the computers to
 generate the tables, so there will be no errors.” That turned out to be true (mostly) but shortsighted. Soon thereafter,
 computers and calculators were so pervasive that the tables became obsolete.
