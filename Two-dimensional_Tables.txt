@@ -9,5 +9,6 @@ A good way to start is to write a loop that prints the multiples of 2, all on on
 Here we’ve used the range function, but made it start its sequence at 1. As the loop executes, the value of i changes
 from 1 to 6. When all the elements of the range have been assigned to i, the loop terminates. Each time through the
 loop, it displays the value of 2 * i, followed by three spaces.
+
 Again, the extra end=" " argument in the print function suppresses the newline, and uses three spaces instead.
 After the loop completes, the call to print at line 3 finishes the current line, and starts a new line.
