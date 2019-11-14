@@ -17,3 +17,13 @@ outputs a sequence of values in the left column and 2 raised to the power of tha
     for x in range(13):
     # Generate numbers 0 to 12
     print(x, "\t", 2**x)
+
+The string "\t" represents a tab character. The backslash character in "\t" indicates the beginning of an escape
+sequence. Escape sequences are used to represent invisible characters like tabs and newlines. The sequence \n
+represents a newline.
+An escape sequence can appear anywhere in a string; in this example, the tab escape sequence is the only thing in the
+string. How do you think you represent a backslash in a string?
+As characters and strings are displayed on the screen, an invisible marker called the cursor keeps track of where the
+next character will go. After a print function, the cursor normally goes to the beginning of the next line.
+The tab character shifts the cursor to the right until it reaches one of the tab stops. Tabs are useful for making columns
+of text line up, as in the output of the previous program:
