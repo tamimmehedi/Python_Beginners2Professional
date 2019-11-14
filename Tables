@@ -30,3 +30,17 @@ next character will go. After a print function, the cursor normally goes to the 
 
 The tab character shifts the cursor to the right until it reaches one of the tab stops. Tabs are useful for making columns
 of text line up, as in the output of the previous program:
+
+    0   1
+    1   2
+    2   4
+    3   8
+    4   16
+    5   32
+    6   64
+    7   128
+    8   256
+    9   512
+    10  1024
+    11  2048
+    12  4096
