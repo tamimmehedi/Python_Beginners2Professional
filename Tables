@@ -27,5 +27,6 @@ string. How do you think you represent a backslash in a string?
 
 As characters and strings are displayed on the screen, an invisible marker called the cursor keeps track of where the
 next character will go. After a print function, the cursor normally goes to the beginning of the next line.
+
 The tab character shifts the cursor to the right until it reaches one of the tab stops. Tabs are useful for making columns
 of text line up, as in the output of the previous program:
