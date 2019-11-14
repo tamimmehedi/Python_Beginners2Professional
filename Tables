@@ -44,3 +44,6 @@ of text line up, as in the output of the previous program:
     10  1024
     11  2048
     12  4096
+
+Because of the tab characters between the columns, the position of the second column does not depend on the number
+of digits in the first column.
