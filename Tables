@@ -21,6 +21,7 @@ outputs a sequence of values in the left column and 2 raised to the power of tha
 The string "\t" represents a tab character. The backslash character in "\t" indicates the beginning of an escape
 sequence. Escape sequences are used to represent invisible characters like tabs and newlines. The sequence \n
 represents a newline.
+
 An escape sequence can appear anywhere in a string; in this example, the tab escape sequence is the only thing in the
 string. How do you think you represent a backslash in a string?
 As characters and strings are displayed on the screen, an invisible marker called the cursor keeps track of where the
