@@ -6,3 +6,8 @@ one after the body:
             break         # ... immediately exit the loop
         print(i)
   print("done")
+
+This prints:
+  12
+  16
+  done
