@@ -13,6 +13,7 @@ This prints:
   done
 
 The pre-test loop — standard loop behaviour
+
 for and while loops do their tests at the start, before executing any part of the body. They’re called pre-test loops,
 because the test happens before (pre) the body. break and return (discussed later) are our tools for adapting this
 standard behaviour.
