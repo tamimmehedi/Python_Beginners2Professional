@@ -12,3 +12,9 @@ loop, it displays the value of 2 * i, followed by three spaces.
 
 Again, the extra end=" " argument in the print function suppresses the newline, and uses three spaces instead.
 After the loop completes, the call to print at line 3 finishes the current line, and starts a new line.
+
+The output of the program is:
+
+    2 4 6 8 10 12
+
+So far, so good. The next step is to encapsulate and generalize. We will continue this topic in the next chapter.
