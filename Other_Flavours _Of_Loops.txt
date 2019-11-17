@@ -17,3 +17,11 @@ input the next number, then test whether to exit, or else process the number:
 
 Convince yourself that this fits the middle-exit loop flowchart: line 3 does some useful work, lines 4 and 5 can exit the
 loop, and if they don’t line 6 does more useful work before the next iteration starts.
+
+The while bool-expr: uses the Boolean expression to determine whether to iterate again. True is a trivial
+Boolean expression, so while True: means always do the loop body again. This is a language idiom — a conven-
+tion that most programmers will recognize immediately. Since the expression on line 2 will never terminate the loop,
+(it is a dummy test) the programmer must arrange to break (or return) out of the loop body elsewhere, in some other
+way (i.e. in lines 4 and 5 in this sample). A clever compiler or interpreter will understand that line 2 is a fake test that
+must always succeed, so it won’t even generate a test, and our flowchart never even put the diamond-shape dummy
+test box at the top of the loop!
