@@ -6,3 +6,11 @@ have different syntax and keywords for these different flavours, but Python just
 A typical example is a problem where the user has to input numbers to be summed. To indicate that there are no more
 inputs, the user enters a special value, often the value -1, or the empty string. This needs a middle-exit loop pattern:
 input the next number, then test whether to exit, or else process the number:
+
+    total = 0
+    while True:
+      response = input("Enter the next number. (Leave blank to end)")
+      if response == "" or response == "-1":
+        break
+      total += int(response)
+    print("The total of the numbers you entered is ", total)
