@@ -14,3 +14,6 @@ input the next number, then test whether to exit, or else process the number:
         break
       total += int(response)
     print("The total of the numbers you entered is ", total)
+
+Convince yourself that this fits the middle-exit loop flowchart: line 3 does some useful work, lines 4 and 5 can exit the
+loop, and if they don’t line 6 does more useful work before the next iteration starts.
