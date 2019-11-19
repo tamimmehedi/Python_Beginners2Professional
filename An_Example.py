@@ -8,14 +8,12 @@ The following program implements a simple guessing game:
   message = ""
 
   while True:
-  guess = int(input(message + "\nGuess my number between 1 and 1000: "))
-  guesses += 1
-  if guess > number:
-  message += str(guess) + " is too high.\n"
-  elif guess < number:
-  message += str(guess) + " is too low.\n"
-  else:
-  break
-  17
-  18
+    guess = int(input(message + "\nGuess my number between 1 and 1000: "))
+    guesses += 1
+    if guess > number:
+      message += str(guess) + " is too high.\n"
+    elif guess < number:
+       message += str(guess) + " is too low.\n"
+    else:
+      break
   input("\n\nGreat, you got it in "+str(guesses)+" guesses!\n\n")
