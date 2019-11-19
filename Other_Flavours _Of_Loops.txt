@@ -37,3 +37,10 @@ play an interactive game against the user — we always want to play at least on
         if response != "yes":
             break
     print("Goodbye!")
+
+Once you’ve recognized that you need a loop to repeat something, think about its terminating condition — when will
+I want to stop iterating? Then figure out whether you need to do the test before starting the first (and every other)
+iteration, or at the end of the first (and every other) iteration, or perhaps in the middle of each iteration. Interactive
+programs that require input from the user or read from files often need to exit their loops in the middle or at the end
+of an iteration, when it becomes clear that there is no more data to process, or the user doesn’t want to play our game
+anymore.
