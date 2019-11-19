@@ -25,3 +25,8 @@ tion that most programmers will recognize immediately. Since the expression on l
 way (i.e. in lines 4 and 5 in this sample). A clever compiler or interpreter will understand that line 2 is a fake test that
 must always succeed, so it won’t even generate a test, and our flowchart never even put the diamond-shape dummy
 test box at the top of the loop!
+
+Similarly, by just moving the if condition: break to the end of the loop body we create a pattern for a post-
+test loop. Post-test loops are used when you want to be sure that the loop body always executes at least once (because
+the first test only happens at the end of the execution of the first loop body). This is useful, for example, if we want to
+play an interactive game against the user — we always want to play at least one game:
