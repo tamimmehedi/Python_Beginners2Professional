@@ -25,6 +25,7 @@ At line 18 there is a call to the input function, but we don’t do anything wit
 This is legal in Python. Here it has the effect of popping up the input dialog window and waiting for the user to respond
 before the program terminates. Programmers often use the trick of doing some extra input at the end of a script, just
 to keep the window open.
+
 Also notice the use of the message variable, initially an empty string, on lines 6, 12 and 14. Each time through the
 loop we extend the message being displayed: this allows us to display the program’s feedback right at the same place
 as we’re asking for the next guess.
