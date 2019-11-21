@@ -12,5 +12,6 @@ Here is a quick sample of things we can do with structured data like this. First
     
     print(celebs)
     print(len(celebs))
-[("Brad Pitt", 1963), ("Jack Nicholson", 1937), ("Justin Bieber", 1994)]
-3
+    
+    [("Brad Pitt", 1963), ("Jack Nicholson", 1937), ("Justin Bieber", 1994)]
+    3
