@@ -17,4 +17,9 @@ Here is a quick sample of things we can do with structured data like this. First
     3
     
 Notice that the celebs list has just 3 elements, each of them pairs.
+
 Now we print the names of those celebrities born before 1980:
+
+    for name, year in celebs:
+      if year < 1980:
+        print(name)
