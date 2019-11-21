@@ -23,3 +23,11 @@ Now we print the names of those celebrities born before 1980:
     for name, year in celebs:
       if year < 1980:
         print(name)
+
+    Brad Pitt
+    Jack Nicholson
+    
+This demonstrates something we have not seen yet in the for loop: instead of using a single loop control variable,
+we’ve used a pair of variable names, (name, year), instead. The loop is executed three times — once for each
+pair in the list, and on each iteration both the variables are assigned values from the pair of data that is being 
+handled.
