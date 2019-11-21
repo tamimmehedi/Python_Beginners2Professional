@@ -1,0 +1,3 @@
+We’ve already seen lists of names and lists of numbers in Python. We’re going to peek ahead in the textbook a little,
+and show a more advanced way of representing our data. Making a pair of things in Python is as simple as putting
+them into parentheses, like this:
