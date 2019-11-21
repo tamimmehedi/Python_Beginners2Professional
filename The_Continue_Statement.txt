@@ -6,3 +6,10 @@ the loop, for the current iteration. But the loop still carries on running for i
       continue       # Don't process it
     print(i)
   print("done")
+
+This prints:
+  12
+  16
+  24
+  30
+  done
