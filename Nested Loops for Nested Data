@@ -10,3 +10,7 @@ student has a name which is paired up with another list of subjects that they ar
     
 Here we’ve assigned a list of five elements to the variable students. Let’s print out each student name, and the
 number of subjects they are enrolled for:
+
+        # Print all students with a count of their courses.
+        for name, subjects in students:
+        print(name, "takes", len(subjects), "courses")
