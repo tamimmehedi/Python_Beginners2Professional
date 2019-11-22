@@ -1,0 +1,2 @@
+Now we’ll come up with an even more adventurous list of structured data. In this case, we have a list of students. Each
+student has a name which is paired up with another list of subjects that they are enrolled for:
