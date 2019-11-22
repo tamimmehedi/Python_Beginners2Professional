@@ -16,3 +16,9 @@ number of subjects they are enrolled for:
         print(name, "takes", len(subjects), "courses")
 
 Python agreeably responds with the following output:
+
+    John takes 2 courses
+    Vusi takes 3 courses
+    Jess takes 4 courses
+    Sarah takes 4 courses
+    Zuki takes 5 courses
