@@ -1,2 +1,9 @@
 Now we’ll come up with an even more adventurous list of structured data. In this case, we have a list of students. Each
 student has a name which is paired up with another list of subjects that they are enrolled for:
+
+    students = [
+    ("John", ["CompSci", "Physics"]),
+    ("Vusi", ["Maths", "CompSci", "Stats"]),
+    ("Jess", ["CompSci", "Accounting", "Economics", "Management"]),
+    ("Sarah", ["InfSys", "Accounting", "Economics", "CommLaw"]),
+    ("Zuki", ["Sociology", "Economics", "Law", "Stats", "Music"])]
