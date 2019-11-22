@@ -14,3 +14,5 @@ number of subjects they are enrolled for:
         # Print all students with a count of their courses.
         for name, subjects in students:
         print(name, "takes", len(subjects), "courses")
+
+Python agreeably responds with the following output:
