@@ -7,3 +7,6 @@ student has a name which is paired up with another list of subjects that they ar
     ("Jess", ["CompSci", "Accounting", "Economics", "Management"]),
     ("Sarah", ["InfSys", "Accounting", "Economics", "CommLaw"]),
     ("Zuki", ["Sociology", "Economics", "Law", "Stats", "Music"])]
+    
+Here we’ve assigned a list of five elements to the variable students. Let’s print out each student name, and the
+number of subjects they are enrolled for:
