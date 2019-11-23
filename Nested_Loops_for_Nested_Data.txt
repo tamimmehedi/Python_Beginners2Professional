@@ -42,3 +42,7 @@ A more concise of doing this would be the following:
     for name, subjects in students:
     if "CompSci" in subjects:
     counter += 1
+    
+You should set up a list of your own data that interests you — perhaps a list of your CDs, each containing a list of
+song titles on the CD, or a list of movie titles, each with a list of movie stars who acted in the movie. You could then
+ask questions like “Which movies starred Angelina Jolie?”
