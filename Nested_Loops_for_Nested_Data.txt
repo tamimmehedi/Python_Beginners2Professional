@@ -34,8 +34,8 @@ second loop that tests each of the subjects in turn:
     if s == "CompSci":
     counter += 1
     print("The number of students taking CompSci is", counter)
-
-The number of students taking CompSci is 3.
+    
+    The number of students taking CompSci is 3.
 
 A more concise of doing this would be the following:
     counter = 0
