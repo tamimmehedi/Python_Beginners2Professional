@@ -37,3 +37,8 @@ second loop that tests each of the subjects in turn:
 
 The number of students taking CompSci is 3.
 
+A more concise of doing this would be the following:
+    counter = 0
+    for name, subjects in students:
+    if "CompSci" in subjects:
+    counter += 1
