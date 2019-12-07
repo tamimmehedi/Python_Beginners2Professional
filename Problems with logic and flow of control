@@ -1,0 +1,2 @@
+We often want to know if some condition holds for any item in a list, e.g. “does the list have any odd numbers?” This
+is a common mistake:
