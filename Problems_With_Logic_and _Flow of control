@@ -15,3 +15,11 @@ Can we spot two problems here? As soon as we execute a break, we’ll leave the 
 find an odd number I can return True” is fine. However, we cannot return False after only looking at one item —
 we can only return False if we’ve been through all the items, and none of them are odd. So line 10 should not be
 there, and lines 8 and 9 have to be outside the loop. Here is a corrected version:
+
+    numbers = [10, 5, 24, 8, 6]
+    for number in numbers:
+        if number % 2 == 1:
+        print(True)
+        break
+    else:
+        print(False)
