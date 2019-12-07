@@ -31,3 +31,13 @@ Note that this uses a for ... else construct.
 
 The else clause is executed when a loop has looped without encountering any break statements. This is ideal for our
 case here. Also note that the else is not, in this case, related to the if statement that occurs inside the loop.
+
+    count = 0
+    for number in numbers:
+    if number % 2 == 1:
+        count += 1
+    # Count the odd numbers
+    if count > 0:
+        print(True)
+    else:
+        print(False)
