@@ -23,3 +23,6 @@ there, and lines 8 and 9 have to be outside the loop. Here is a corrected versio
         break
     else:
         print(False)
+
+We’ll see This “eureka”, or “short-circuit” style of breaking from a loop as soon as we are certain what the outcome
+will be again later.
