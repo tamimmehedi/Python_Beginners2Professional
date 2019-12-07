@@ -26,3 +26,8 @@ there, and lines 8 and 9 have to be outside the loop. Here is a corrected versio
 
 We’ll see This “eureka”, or “short-circuit” style of breaking from a loop as soon as we are certain what the outcome
 will be again later.
+
+Note that this uses a for ... else construct.
+
+The else clause is executed when a loop has looped without encountering any break statements. This is ideal for our
+case here. Also note that the else is not, in this case, related to the if statement that occurs inside the loop.
