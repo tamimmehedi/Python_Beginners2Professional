@@ -58,3 +58,8 @@ in the print statement. So we could cut out that code and simply have the follow
     count += 1          # Count the odd numbers
     print(count > 0)    # Aha! a programmer who understands that Boolean
                         #expressions are not just used in if statements!
+
+Although this code is tighter, it is not as nice as the one that did the short-circuit return as soon as the first odd number
+was found.
+
+Even shorter:
