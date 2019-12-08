@@ -46,3 +46,7 @@ The performance disadvantage of this one is that it traverses the whole list, ev
 
 Do I need to look at all elements in all cases? Can I shortcut and take an early exit? Under what conditions? When
 will I have to examine all the items in the list?
+
+The code in lines 6-9 can also be tightened up. The expression count > 0 itself represents a Boolean value, either
+True or False (we can say it ‘evaluates’ to either True or False). That True/False value can be used directly
+in the print statement. So we could cut out that code and simply have the following:
