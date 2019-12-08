@@ -70,3 +70,9 @@ Even shorter:
         count += number % 2 == 1
         print(count > 0)        # Aha! a programmer who understands that Boolean
                                 #expressions are not just used in if statements!
+                                
+Programmers won’t write if is_prime(n) == True: when they could say instead if is_prime(n):
+Think more generally about Boolean values, not just in the context of if or while statements. Like arithmetic
+expressions, they have their own set of operators (and, or, not) and values (True, False) and can be assigned
+to variables, put into lists, etc. A good resource for improving your use of Booleans is http://en.wikibooks.org/wiki/
+Non-Programmer%27s_Tutorial_for_Python_3/Boolean_Expressions
