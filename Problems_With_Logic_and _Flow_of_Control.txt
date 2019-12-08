@@ -50,3 +50,11 @@ will I have to examine all the items in the list?
 The code in lines 6-9 can also be tightened up. The expression count > 0 itself represents a Boolean value, either
 True or False (we can say it ‘evaluates’ to either True or False). That True/False value can be used directly
 in the print statement. So we could cut out that code and simply have the following:
+
+    numbers = [10, 5, 24, 8, 6]
+    count = 0
+    for number in numbers:
+    if number % 2 == 1:
+    count += 1          # Count the odd numbers
+    print(count > 0)    # Aha! a programmer who understands that Boolean
+                        #expressions are not just used in if statements!
