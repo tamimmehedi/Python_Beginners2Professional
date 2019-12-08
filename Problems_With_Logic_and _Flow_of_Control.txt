@@ -41,3 +41,8 @@ case here. Also note that the else is not, in this case, related to the if state
         print(True)
     else:
         print(False)
+        
+The performance disadvantage of this one is that it traverses the whole list, even if it knows the outcome very early on.
+
+Do I need to look at all elements in all cases? Can I shortcut and take an early exit? Under what conditions? When
+will I have to examine all the items in the list?
